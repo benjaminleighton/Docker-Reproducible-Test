@@ -17,5 +17,8 @@ then
 	  exit 1 
 	fi
 else
+        git add last_test_result.txt 
+	git commit -m "new result"
+	git push
         exit 0	
 fi
