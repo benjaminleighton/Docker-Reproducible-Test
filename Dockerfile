@@ -1,2 +1,2 @@
 FROM ubuntu
-echo "Hello World" > result.txt
+RUN echo "A slightly different Hello World" > result.txt
